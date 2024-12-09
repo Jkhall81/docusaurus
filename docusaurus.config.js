@@ -45,8 +45,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Jkhall81/docusaurus",
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +55,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Jkhall81/docusaurus",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -76,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Home",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -88,9 +86,32 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            type: "docSidebar",
+            sidebarId: "cubicSidebar",
+            position: "left",
+            label: "Cubic",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "fogServerSidebar",
+            position: "left",
+            label: "Fog Server",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "linuxSidebar",
+            position: "left",
+            label: "Linux",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "techSetupSidebar",
+            position: "left",
+            label: "Tech Setup",
+          },
+          {
+            href: "https://github.com/Jkhall81/docusaurus",
             label: "GitHub",
             position: "right",
           },

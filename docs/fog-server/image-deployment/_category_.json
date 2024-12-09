@@ -1,0 +1,8 @@
+{
+  "label": "Fog Server - Image Deployment",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploying Fog Server Images."
+  }
+}

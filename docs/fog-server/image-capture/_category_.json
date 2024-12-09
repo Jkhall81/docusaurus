@@ -1,0 +1,8 @@
+{
+  "label": "Fog Server - Image Capture",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Creating images with Fog."
+  }
+}
