@@ -106,4 +106,4 @@ The enable command makes sure that dnsmasq is started everytime the machine boot
 
 ## Subnets
 
-In ourcase the FOG Server and machines we need to reimage are on the same subnet, so we don't need a dhcp-range at the end of the ltsp.conf file. If we had machines on other subnets then we would need to listen the range that those machines fall in in order for network booting to work.
+In our case the FOG Server and machines we need to reimage are on the same subnet, so we don't need a dhcp-range at the end of the ltsp.conf file. If we had machines on other subnets then we would need to listen the range that those machines fall in in order for network booting to work.
