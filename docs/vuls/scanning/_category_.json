@@ -1,0 +1,8 @@
+{
+  "label": "Vuls - Scanning",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Scanning with Vuls"
+  }
+}

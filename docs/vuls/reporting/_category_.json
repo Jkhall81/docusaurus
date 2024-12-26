@@ -1,0 +1,8 @@
+{
+  "label": "Vuls - Reporting",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Showing Scan Results"
+  }
+}

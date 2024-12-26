@@ -82,12 +82,6 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
-          {
-            type: "docSidebar",
             sidebarId: "cubicSidebar",
             position: "left",
             label: "Cubic",
@@ -109,6 +103,12 @@ const config = {
             sidebarId: "techSetupSidebar",
             position: "left",
             label: "Tech Setup",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "vulsSidebar",
+            position: "left",
+            label: "Vuls Scanner",
           },
           {
             href: "https://github.com/Jkhall81/docusaurus",
