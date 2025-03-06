@@ -82,9 +82,9 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "cubicSidebar",
+            sidebarId: "blackListSidebar",
             position: "left",
-            label: "Cubic",
+            label: "Black List",
           },
           {
             type: "docSidebar",
