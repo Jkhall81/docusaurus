@@ -19,8 +19,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Learn how to configure and manage scheduled tasks using our Cron Job
-        system. <a href="/cron-jobs">View the documentation</a>.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
